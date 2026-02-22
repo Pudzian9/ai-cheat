@@ -1,0 +1,32 @@
+
+> Configure project :
+Fabric Loom: 1.10.5
+
+> Task :compileJava FAILED
+C:\Users\rzulwik\source\mc ghos client\vivix-client\src\main\java\dev\vivix\mixin\MixinEntity.java:28: error: cannot find symbol
+            if (entity != VivixMod.getInstance().getModuleManager().mc.player) {
+                                                                   ^
+  symbol:   variable mc
+  location: class ModuleManager
+1 error
+
+[Incubating] Problems report is available at: file:///C:/Users/rzulwik/source/mc%20ghos%20client/vivix-client/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\rzulwik\source\mc ghos client\vivix-client\src\main\java\dev\vivix\mixin\MixinEntity.java:28: error: cannot find symbol
+              if (entity != VivixMod.getInstance().getModuleManager().mc.player) {
+                                                                     ^
+    symbol:   variable mc
+    location: class ModuleManager
+  1 error
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+1 actionable task: 1 executed
